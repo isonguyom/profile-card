@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- Profile Picture --> 
+        <img src="profile.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+
+        <!-- Full Name -->
+        <h2 class="full-name" data-testid="fullName">Martin Isonguyo</h2>
+
+        <!-- Job Title -->
+        <h3 class="job-title" data-testid="jobTitle">Frontend Developer & Maritime-Tech Enthusiast</h3>
+
+        <!-- Short Bio -->
+        <p class="bio" data-testid="shortBio">
+            Passionate about merging technology with the maritime industry. Experienced in frontend development, specializing in Vue.js, and dedicated to maritime digitalization.
+        </p>
+
+        <!-- Current Location -->
+        <p class="location" data-testid="currentLocation">Akwa Ibom, Nigeria</p>
+
+        <!-- Email Address -->
+        <p class="email" data-testid="emailAddress">isonguyom@gmail.com</p>
+
+        <!-- Social Links -->
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/martin-isonguyo/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/isonguyom" target="_blank">GitHub</a>
+            <a href="https://twitter.com/isonguyom" target="_blank">Twitter</a>
+        </div>
+
+        <!-- Current Time in UTC -->
+        <p class="utc-time" data-testid="currentTimeUTC"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
